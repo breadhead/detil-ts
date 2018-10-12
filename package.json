@@ -1,0 +1,36 @@
+{
+  "name": "@breadhead/detil-ts",
+  "version": "1.0.0",
+  "description": "Tools for easy working with TypeScript decorators",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "test": "yarn lint",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breadhead/detil-ts.git"
+  },
+  "keywords": [
+    "decorators",
+    "utils"
+  ],
+  "author": "Igor Kamyshev <igor@breadhead.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/breadhead/detil-ts/issues"
+  },
+  "homepage": "https://github.com/breadhead/detil-ts#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
